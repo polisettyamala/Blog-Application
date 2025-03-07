@@ -133,6 +133,7 @@ export const getBlogsByQueryTopic = async (req, res, next) => {
     return res.status(500).json({ success: false, message: "Server error" });
   }
 };
+// export const getId
 
 export const deleteBlog = async (req, res, next) => {
   const blogId = req.params.id;
