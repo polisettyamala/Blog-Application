@@ -1,0 +1,32 @@
+{
+  "name": "ait_m_mern_27-01-2025",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helvarAdars/AIT_M-MERN_27-01-2024.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helvarAdars/AIT_M-MERN_27-01-2024/issues"
+  },
+  "homepage": "https://github.com/helvarAdars/AIT_M-MERN_27-01-2024#readme",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9"
+  }
+}
